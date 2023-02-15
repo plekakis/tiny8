@@ -1,6 +1,8 @@
 # What?
 A header-only CHIP-8 interpreter.
 
+Many thanks to https://github.com/Timendus/chip8-test-suite for the test suite.
+
 # Why?
 For fun mostly, I really needed a break from another project of mine.
 
@@ -28,6 +30,14 @@ uint8_t const value = interpreter.get_display()->m_data[y * tiny8::c_displayWidt
 ```
 
 For a working example, see **tiny8_sample.cpp** (uses SDL for input and output).
+
+# Screenshots
+![image](https://user-images.githubusercontent.com/5764341/219083385-8dfe1977-4b22-41cf-b73c-6d92fde9400c.png)
+![image](https://user-images.githubusercontent.com/5764341/219083506-8ca72553-879c-4e62-8016-39179ae2e92d.png)
+![image](https://user-images.githubusercontent.com/5764341/219083583-f07cf43e-e8e2-418e-a299-386707d8529b.png)
+![image](https://user-images.githubusercontent.com/5764341/219083639-3fb3df56-0be8-4ea9-af6c-db9c77c672fe.png)
+![image](https://user-images.githubusercontent.com/5764341/219083733-0826c373-109c-4975-941b-6b4799dfe0ff.png)
+
 
 # Bugs/Requests
 Please use the [GitHub issue tracker](https://github.com/alkisbkn/tiny8/issues) to submit bugs or request features.
