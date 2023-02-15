@@ -1,7 +1,8 @@
 # What?
-A header-only CHIP-8 interpreter.
+A header-only CHIP-8 interpreter. 
 
 Many thanks to https://github.com/Timendus/chip8-test-suite for the test suite.
+Info on CHIP-8 itself: https://en.wikipedia.org/wiki/CHIP-8
 
 # Why?
 For fun mostly, I really needed a break from another project of mine.
