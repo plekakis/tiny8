@@ -27,6 +27,14 @@ interpreter.advance(keys);
 // draw pixels using your favourite library
 uint8_t const value = interpreter.get_display()->m_data[y * tiny8::c_displayWidth + x];
 
+// getting timers:
+auto const sound = interpreter.get_timers()->m_sound;
+auto const delay = interpreter.get_timers()->m_delay;
+
+// access to the registers:
+auto* const registers = interpreter.get_registers();
+auto const r = registers->m_v[0];
+
 ```
 
 For a working example, see **tiny8_sample.cpp** (uses SDL for input and output).
