@@ -243,6 +243,7 @@ namespace tiny8
 					else
 						m_registers.m_pc = m_state.m_nnn + m_registers.m_v[m_state.m_x];
 				});
+			add_instruction(0xc0, 0x00, 0x0000, [&]() { m_registers.m_v[m_state.m_x] = (std::rand() % 255) & m_state.m_nn; });
 			add_instruction(0xd0, 0x00, 0x0000, [&]()
 				{
 						auto const coordx = m_registers.m_v[m_state.m_x] & (c_displayWidth - 1);
